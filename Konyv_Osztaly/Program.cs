@@ -70,8 +70,18 @@ namespace Osztaly_Konyv
             Console.WriteLine(konyvesPolc1.konyvekSzama);
             Console.WriteLine(konyvesPolc1.KonyvekSzamaFugveny());
 
-
-
+            /*Könyv osztályt kiegészíteni leltári számmal 11 karakter
+            minden mezőt ellenörző adatbevitelt
+            Szerző minimum 6 karakter 
+            Mű címe minimum 1 karakter
+            Kiadas éve -10000 -- 2023
+            nyelv nem lehet üres
+            enciklopedia - true/false
+            ebook i/n
+            konyvespolc osztályban szótárat létrehozni
+            szótár kulcsa a könyv leltári száma
+            a szótár értéke a könyvnek a listában szereplő indexe
+            */
 
             
             Console.ReadKey();
